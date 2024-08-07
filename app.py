@@ -22,8 +22,8 @@ local_css("style/style.css")
 
 # Load assets
 lottie_coding = load_lottieurl("https://lottie.host/4a25035a-b065-4a03-a856-435e9e880299/A30VZPmIMn.json")
-image1 = Image.open(r"C:\Users\Andy\Desktop\New folder (2)\Python Project\images\img1.JPG")
-image2 = Image.open(r"C:\Users\Andy\Desktop\New folder (2)\Python Project\images\img2.JPG")
+# image1 = Image.open(r"C:\Users\Andy\Desktop\New folder (2)\Python Project\images\img1.JPG")
+# image2 = Image.open(r"C:\Users\Andy\Desktop\New folder (2)\Python Project\images\img2.JPG")
 
 # Header section
 with st.container():
@@ -42,17 +42,17 @@ with st.container():
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
-# Projects
-with st.container():
-    st.write("---")
-    st.header("Beautiful Views")
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-         st.image(image2)
-    with text_column:
-        st.subheader("Amazing Sunrise")
-        st.write("From some of the great places in the world")
+# # Projects
+# with st.container():
+#     st.write("---")
+#     st.header("Beautiful Views")
+#     st.write("##")
+#     image_column, text_column = st.columns((1, 2))
+#     with image_column:
+#          st.image(image2)
+#     with text_column:
+#         st.subheader("Amazing Sunrise")
+#         st.write("From some of the great places in the world")
     
         
 #another project
