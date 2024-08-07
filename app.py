@@ -56,16 +56,16 @@ with st.container():
     
         
 #another project
-with st.container():
-    st.write("---")
+# with st.container():
+#     st.write("---")
     
-    st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(image1)
-    with text_column:
-        st.subheader("Beautiful Sunset")
-        st.write("From some of the great places in the world")
+#     st.write("##")
+#     image_column, text_column = st.columns((1, 2))
+#     with image_column:
+#         st.image(image1)
+#     with text_column:
+#         st.subheader("Beautiful Sunset")
+#         st.write("From some of the great places in the world")
 
 # --Contact
 with st.container():
